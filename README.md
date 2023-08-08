@@ -10,4 +10,4 @@ Spuštění programu:
 
 - otevření CMD (Příkazový řádek)
 -> python projekt3_V2.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2107" "Boleslav.csv"
-  - odkaz a název souboru si uivatel zadá libovolně
+  - odkaz a název souboru si uživatel zadá libovolně
