@@ -158,8 +158,8 @@ def platneHlasy() -> list:
     platne = []
 
     for odkaz in odkazy:
-        odkaz_html = requests.get(odkaz)
-        soup= bs4.BeautifulSoup(odkaz_html.text, "html.parser")     
+        pozadavek = requests.get(odkaz)
+        soup= bs4.BeautifulSoup(pozadavek.text, "html.parser")     
         tdTag = soup.find_all("td", headers="sa6")
 
         for td in tdTag:
